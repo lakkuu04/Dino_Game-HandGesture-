@@ -1,14 +1,17 @@
-# Dino_Game-HandGesture-
-"This project controls the Chrome Dino game using hand gestures detected via webcam. It leverages Python, OpenCV, and ctypes for real-time gesture recognition and simulating key presses."
+# Dino Game (Using Hand Gesture)
 
-## Features
-- Real-time hand gesture detection using OpenCV
-- Control the Dino game by raising fingers: 0, 1, 2, 3, 4, and 5 fingers correspond to different actions
-- Smooth and responsive interaction with the game
-- Easily configurable for different webcam setups
+This project allows you to control the T-Rex game in any browser using hand gestures detected via webcam.
 
-## Requirements
-- Python 3.12
-- OpenCV
-- cvzone (for HandTrackingModule)
-- ctypes
+## Instructions
+
+- **Close the Frame**: Press 'q' to close the game frame.
+- **Browser Compatibility**: This project can be used with any browser that supports the T-Rex game.
+
+## Getting Started
+
+To run the project:
+1. Install Python 3.12 or later.
+2. Install OpenCV and cvzone:
+   ```bash
+   pip install opencv-python-headless
+   pip install cvzone
